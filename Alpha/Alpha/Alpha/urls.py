@@ -1,5 +1,5 @@
-"""
-Definition of urls for Alpha.
+﻿"""
+Definition of urls for DjangoWebProject1.
 """
 
 from datetime import datetime
@@ -16,6 +16,7 @@ urlpatterns = patterns('',
     url(r'^$', 'app.views.home', name='home'),
     url(r'^contact$', 'app.views.contact', name='contact'),
     url(r'^about', 'app.views.about', name='about'),
+      url(r'^TESTE', 'app.views.test', name='test'),
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {

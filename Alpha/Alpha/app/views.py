@@ -1,4 +1,4 @@
-"""
+﻿"""
 Definition of views.
 """
 
@@ -44,6 +44,21 @@ def about(request):
         {
             'title':'About',
             'message':'Your application description page.',
+            'year':datetime.now().year,
+        })
+    )
+
+
+def test(request):
+    """Renders the about page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/TEST.html',
+        context_instance = RequestContext(request,
+        {
+            'title':'Pagina Custumizada',
+            'message':'Esta é uma Pagina Custumizada.',
             'year':datetime.now().year,
         })
     )
