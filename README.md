@@ -6,7 +6,8 @@
 
 * Router - Internet Gateway - Device 1
   * 192.168.1.254
-* Item 2
+* Switch Gigabit 8 
+* Switch Gigabit 5 
 * Item 3
 
 + Item 1
