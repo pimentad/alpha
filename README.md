@@ -4,10 +4,8 @@
 
 ### Core
 
-
-
-
-* Item 1
+* Router - Internet Gateway - Device 1
+  * 192.168.1.254
 * Item 2
 * Item 3
 
