@@ -4,10 +4,10 @@
 
 ### Core
 
-* **Router - Internet Gateway - Device 1**
-  * 192.168.1.254
-* **Switch Gigabit 8** 
-* **Switch Gigabit 5** 
+- **Router - Internet Gateway - Device 1**
+  - 192.168.1.254
+- **Switch Gigabit 8** 
+- **Switch Gigabit 5** 
 
 
 
